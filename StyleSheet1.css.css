@@ -1,0 +1,95 @@
+﻿body
+{
+    background:url("car1.jpg") no-repeat;
+    background-size:cover;
+    color:white;
+    
+}
+h3 {
+    text-align: center;
+    color: black;
+}
+h5 {
+    font-size:30px;
+    text-align: center;
+    color: red;
+    padding:0;
+}
+p
+{
+    
+ text-align:center;
+color:black;
+
+}
+img
+{
+    width:100%;
+}
+ul
+{
+   margin:0;
+   padding:0;
+  list-style:none;
+}
+ul li
+{
+    float:left;
+    width:225px;
+    height:30px;
+    background-color:green;
+    color:white;
+    opacity:0.8;
+    line-height:30px;
+    text-align:center;
+    font-size:20px;
+    cursor:pointer;
+}
+ul li a
+{
+     text-decoration :none;
+     color:white;
+     display:block;
+}
+ul li a:hover
+{
+    background-color:black;
+}
+ul li ul li 
+{
+    display:none;
+}
+ul li:hover ul li
+{
+    display:block;
+}
+container
+{
+    display:block;
+    padding:20px;
+    background-color:lightblue;
+    color:green;
+}
+*{
+    box-sizing:border-box;
+}
+input[type="text"],input[type="password"]
+{
+    padding:10px;
+    display:inline-block;
+    background-color:yellow;
+    width:100%;
+    border:1px solid black;
+}
+Registerbutton
+{
+    background-color:darkgreen;
+    color:black;
+    padding:20px;
+    cursor:pointer;
+}
+Registerbutton:hover
+{
+   cursor:pointer;
+    opacity:1;
+}
