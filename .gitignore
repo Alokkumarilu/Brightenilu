@@ -1,0 +1,9 @@
+
+*.user
+*.cache
+*.json
+*.targets
+*.props
+*.cs
+.vs/Alokproject1/DesignTimeBuild/.dtbcache
+.vs/Alokproject1/v16/.suo
